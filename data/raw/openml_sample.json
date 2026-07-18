@@ -1,0 +1,162 @@
+[
+  {
+    "name": "credit-approval",
+    "source": "OpenML",
+    "description": "OpenML dataset (id: 29), format: ARFF",
+    "url": "https://www.openml.org/d/29",
+    "format": "ARFF",
+    "tags": []
+  },
+  {
+    "name": "credit-g",
+    "source": "OpenML",
+    "description": "OpenML dataset (id: 31), format: ARFF",
+    "url": "https://www.openml.org/d/31",
+    "format": "ARFF",
+    "tags": []
+  },
+  {
+    "name": "BNG(credit-a,nominal,1000000)",
+    "source": "OpenML",
+    "description": "OpenML dataset (id: 124), format: ARFF",
+    "url": "https://www.openml.org/d/124",
+    "format": "ARFF",
+    "tags": []
+  },
+  {
+    "name": "BNG(credit-g,nominal,1000000)",
+    "source": "OpenML",
+    "description": "OpenML dataset (id: 126), format: ARFF",
+    "url": "https://www.openml.org/d/126",
+    "format": "ARFF",
+    "tags": []
+  },
+  {
+    "name": "BNG(credit-a)",
+    "source": "OpenML",
+    "description": "OpenML dataset (id: 258), format: ARFF",
+    "url": "https://www.openml.org/d/258",
+    "format": "ARFF",
+    "tags": []
+  },
+  {
+    "name": "BNG(credit-g)",
+    "source": "OpenML",
+    "description": "OpenML dataset (id: 260), format: ARFF",
+    "url": "https://www.openml.org/d/260",
+    "format": "ARFF",
+    "tags": []
+  },
+  {
+    "name": "analcatdata_creditscore",
+    "source": "OpenML",
+    "description": "OpenML dataset (id: 461), format: ARFF",
+    "url": "https://www.openml.org/d/461",
+    "format": "ARFF",
+    "tags": []
+  },
+  {
+    "name": "creditcard",
+    "source": "OpenML",
+    "description": "OpenML dataset (id: 1597), format: ARFF",
+    "url": "https://www.openml.org/d/1597",
+    "format": "ARFF",
+    "tags": []
+  },
+  {
+    "name": "CreditCardSubset",
+    "source": "OpenML",
+    "description": "OpenML dataset (id: 4154), format: ARFF",
+    "url": "https://www.openml.org/d/4154",
+    "format": "ARFF",
+    "tags": []
+  },
+  {
+    "name": "BNG(credit-g)",
+    "source": "OpenML",
+    "description": "OpenML dataset (id: 40514), format: arff",
+    "url": "https://www.openml.org/d/40514",
+    "format": "arff",
+    "tags": []
+  },
+  {
+    "name": "default_credit_card_p",
+    "source": "OpenML",
+    "description": "OpenML dataset (id: 42105), format: ARFF",
+    "url": "https://www.openml.org/d/42105",
+    "format": "ARFF",
+    "tags": []
+  },
+  {
+    "name": "CreditCardFraudDetection",
+    "source": "OpenML",
+    "description": "OpenML dataset (id: 42175), format: arff",
+    "url": "https://www.openml.org/d/42175",
+    "format": "arff",
+    "tags": []
+  },
+  {
+    "name": "CreditCardFraudDetection",
+    "source": "OpenML",
+    "description": "OpenML dataset (id: 42397), format: arff",
+    "url": "https://www.openml.org/d/42397",
+    "format": "arff",
+    "tags": []
+  },
+  {
+    "name": "default-of-credit-card-clients",
+    "source": "OpenML",
+    "description": "OpenML dataset (id: 42477), format: ARFF",
+    "url": "https://www.openml.org/d/42477",
+    "format": "ARFF",
+    "tags": []
+  },
+  {
+    "name": "dataset_31_credit-g",
+    "source": "OpenML",
+    "description": "OpenML dataset (id: 42627), format: arff",
+    "url": "https://www.openml.org/d/42627",
+    "format": "arff",
+    "tags": []
+  },
+  {
+    "name": "dataset_31_credit-g",
+    "source": "OpenML",
+    "description": "OpenML dataset (id: 42628), format: arff",
+    "url": "https://www.openml.org/d/42628",
+    "format": "arff",
+    "tags": []
+  },
+  {
+    "name": "dataset_31_credit-g",
+    "source": "OpenML",
+    "description": "OpenML dataset (id: 42629), format: arff",
+    "url": "https://www.openml.org/d/42629",
+    "format": "arff",
+    "tags": []
+  },
+  {
+    "name": "dataset_31_credit-g",
+    "source": "OpenML",
+    "description": "OpenML dataset (id: 42630), format: arff",
+    "url": "https://www.openml.org/d/42630",
+    "format": "arff",
+    "tags": []
+  },
+  {
+    "name": "dataset_31_credit-g",
+    "source": "OpenML",
+    "description": "OpenML dataset (id: 42631), format: arff",
+    "url": "https://www.openml.org/d/42631",
+    "format": "arff",
+    "tags": []
+  },
+  {
+    "name": "dataset_31_credit-g",
+    "source": "OpenML",
+    "description": "OpenML dataset (id: 42632), format: arff",
+    "url": "https://www.openml.org/d/42632",
+    "format": "arff",
+    "tags": []
+  }
+]

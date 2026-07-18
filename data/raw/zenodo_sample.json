@@ -1,0 +1,207 @@
+[
+  {
+    "name": "Supersharers of fake news on Twitter",
+    "source": "Zenodo",
+    "description": "<p>Governments may have the capacity to flood social media with fake news, but little is known about the use of flooding by ordinary voters. In this work, we identify 2107 registered US voters that account for 80% of the fake news shared on Twitter during the 2020 US presidential election by an enti",
+    "url": "https://zenodo.org/records/11273555",
+    "tags": [
+      "fake news",
+      "Misinformation",
+      "Social media",
+      "Twitter",
+      "Supersharers",
+      "computational social science"
+    ]
+  },
+  {
+    "name": "Fake News Text Collections",
+    "source": "Zenodo",
+    "description": "<p>The description are in:&nbsp;<a href=\"https://github.com/GoloMarcos/FKTC\">https://github.com/GoloMarcos/FKTC</a></p>",
+    "url": "https://zenodo.org/records/5236636",
+    "tags": [
+      "Fake News",
+      "Fake News Text Collections"
+    ]
+  },
+  {
+    "name": "FalleDesinfo_ES: Dataset de noticias en espa\u00f1ol reales y falsas sobre fallecimientos de celebridades",
+    "source": "Zenodo",
+    "description": "<p>Este conjunto de datos contiene 33 noticias en espa&ntilde;ol relacionadas con fallecimientos de celebridades, clasificadas en tres tipos, cada uno de los cuales contiene 11 noticias distintas:</p>\n<p>Tipo 1 (T1): Noticias err&oacute;neas (misinformation) que se creyeron la noticia falsa (fake ne",
+    "url": "https://zenodo.org/records/13127598",
+    "tags": []
+  },
+  {
+    "name": "Fake News Dataset with In-content Annotations and Detailed Lying Excerpts",
+    "source": "Zenodo",
+    "description": "<p>This dataset contains 95 fake news collected from two Brazilian fact-checking services (E-farsas and Boatos). We carefully annotated some excerpts of the fake news to enable deeper analyses of their falsehood. From these annotations, we divided the news into three groups: real news, totally fake ",
+    "url": "https://zenodo.org/records/10032226",
+    "tags": [
+      "fake news"
+    ]
+  },
+  {
+    "name": "Profiling Fake News Spreaders on Twitter",
+    "source": "Zenodo",
+    "description": "<p><strong>Task</strong></p>\n\n<p>Fake news has become one of the main threats of our society. Although fake news is not a new phenomenon, the exponential growth of social media has offered an easy platform for their fast propagation. A great amount of fake news, and rumors are propagated in online s",
+    "url": "https://zenodo.org/records/4039435",
+    "tags": [
+      "author profiling",
+      "fake news",
+      "fake news spreaders",
+      "rumors"
+    ]
+  },
+  {
+    "name": "BuzzFeed-Webis Fake News Corpus 2016",
+    "source": "Zenodo",
+    "description": "<p>The corpus comprises the output of 9 publishers in a week close to the US elections. Among the selected publishers are 6 prolific hyperpartisan ones (three left-wing and three right-wing), and three mainstream publishers (see Table 1). All publishers earned Facebook&rsquo;s blue checkmark, indica",
+    "url": "https://zenodo.org/records/1239675",
+    "tags": [
+      "Fake News",
+      "Hyperpartisan News",
+      "News articles",
+      "News"
+    ]
+  },
+  {
+    "name": "Fake News",
+    "source": "Zenodo",
+    "description": "<p>This data collection focuses on capturing user-generated content from the popular social network Reddit in 2024. The dataset &ldquo;Fake News&rdquo; comprises collected data from 3636 users of Reddit. This dataset consists of .csv .xls, and .xlsx files, containing textual data associated with fak",
+    "url": "https://zenodo.org/records/11370330",
+    "tags": [
+      "social networks"
+    ]
+  },
+  {
+    "name": "FakeCTI Dataset",
+    "source": "Zenodo",
+    "description": "<p>This repository contains the FakeCTI dataset, a collection of fake news labeled with disinformation campaigns and threat actors, an artifact linked to the paper \"Elevating Cyber Threat Intelligence against Disinformation Campaigns with LLM-based Concept Extraction and the FakeCTI Dataset\".</p>",
+    "url": "https://zenodo.org/records/17248748",
+    "tags": [
+      "Fake News",
+      "Disinformation"
+    ]
+  },
+  {
+    "name": "Japanese Fake News Dataset",
+    "source": "Zenodo",
+    "description": "<p>Japanese Fake News Dataset</p>\n\n<p>Read our project page for more details:&nbsp;https://hkefka385.github.io/dataset/fakenews-japanese/</p>",
+    "url": "https://zenodo.org/records/5831617",
+    "tags": [
+      "Fake news",
+      "Twitter"
+    ]
+  },
+  {
+    "name": "Analysing state-backed propaganda websites: a new dataset and linguistic study (public dataset)",
+    "source": "Zenodo",
+    "description": "<p>This is the dataset accompanying the EMNLP 2023 paper \"Analysing state-backed propaganda websites: a new dataset and linguistic study\".</p>\n<p>For copyright and liability reasons, we do not publicly distribute the complete dataset. Instead, we provide the software used to create the dataset (DOI:",
+    "url": "https://zenodo.org/records/10007383",
+    "tags": [
+      "disinformation",
+      "fake news",
+      "propaganda"
+    ]
+  },
+  {
+    "name": "Augmented DziriFake",
+    "source": "Zenodo",
+    "description": "<p>This is an augmented version of the DziriFake dataset available at https://zenodo.org/records/14586449</p>",
+    "url": "https://zenodo.org/records/18459182",
+    "tags": [
+      "Algerian fake news detection"
+    ]
+  },
+  {
+    "name": "LIARx: A Partial Fact Fake News Dataset",
+    "source": "Zenodo",
+    "description": "<p>LIARx is a partial fact dataset for fake news detection in the domain of US politics and is an&nbsp;updated form of the popular LIAR dataset published by William Yang Wang in 2017. The dataset&nbsp;addresses the non-binary nature of fake news and instead allows you to learn the degree of veracity",
+    "url": "https://zenodo.org/records/4723768",
+    "tags": [
+      "Partial Fake News Dataset"
+    ]
+  },
+  {
+    "name": "LLM-Driven Text Augmentation across Media and Languages",
+    "source": "Zenodo",
+    "description": "<p>The proliferation of fake news across social media, headlines, and news articles poses major challenges for automated detection, particularly in multilingual and cross-media settings affected by data imbalance. We propose a fake news detection framework based on LLM-driven, feature-guided text au",
+    "url": "https://zenodo.org/records/18847171",
+    "tags": []
+  },
+  {
+    "name": "Spanish Fake News Dataset",
+    "source": "Zenodo",
+    "description": "<p><strong>Spanish Fake News Dataset</strong></p>\n<p>This dataset contains a structured and annotated collection of false news items in Spanish (Castilian), gathered and processed for academic research on misinformation.</p>\n<p><strong>Dataset Scope</strong></p>\n<p>The dataset represents most of the",
+    "url": "https://zenodo.org/records/15592391",
+    "tags": []
+  },
+  {
+    "name": "COVID Fake News Dataset",
+    "source": "Zenodo",
+    "description": "<p><strong>Context</strong></p>\n\n<p>The dataset contains the list of COVID Fake News/Claims which is shared all over the internet.</p>\n\n<p><strong>Content</strong></p>\n\n<ol>\n\t<li>Headlines: String attribute consisting of the headlines/fact shared.</li>\n\t<li>Outcome: It is binary data where 0 means t",
+    "url": "https://zenodo.org/records/4282522",
+    "tags": [
+      "COVID19",
+      "Coronavirus",
+      "Pandemic",
+      "Fake News",
+      "Machine Learning"
+    ]
+  },
+  {
+    "name": "SahihWakadib",
+    "source": "Zenodo",
+    "description": "",
+    "url": "https://zenodo.org/records/12925391",
+    "tags": [
+      "fake news detection",
+      "desinformation",
+      "arabic",
+      "fake news"
+    ]
+  },
+  {
+    "name": "Respuestas a la encuesta para el estudio de noticias falsas",
+    "source": "Zenodo",
+    "description": "<p>Este conjunto de datos contiene respuestas de una encuesta realizada para comprender el impacto de las \"fake news\" en los estudiantes de una universidad privada en Ecuador. La encuesta recolect&oacute; informaci&oacute;n demogr&aacute;fica, opiniones sobre la importancia de las fake news en la so",
+    "url": "https://zenodo.org/records/12702201",
+    "tags": []
+  },
+  {
+    "name": "Navigating News Narratives: A Media Bias Analysis Dataset",
+    "source": "Zenodo",
+    "description": "<p>The prevalence of bias in the news media has become a critical issue, affecting public perception on a range of important topics such as political views, health, insurance, resource distributions, religion, race, age, gender, occupation, and climate change. The media has a moral responsibility to",
+    "url": "https://zenodo.org/records/10231028",
+    "tags": [
+      "LLM",
+      "BIAS",
+      "NEWS MEDIA BIAS",
+      "FAKE NEWS",
+      "NLP",
+      "NEWS ARTICLES"
+    ]
+  },
+  {
+    "name": "Domain shares on Twitter containing news and misinformation",
+    "source": "Zenodo",
+    "description": "<p>This dataset contains a set of domain&nbsp;sharing actions&nbsp;that occurred&nbsp;on Twitter during the month of June 2017. Each domain sharing action can be thought of as a triple <em>(user_id, action_id, domain).</em>&nbsp;The user_id is an anonymized Twitter account ID, and the action_id is a",
+    "url": "https://zenodo.org/records/2650183",
+    "tags": [
+      "twitter",
+      "news",
+      "misinformation",
+      "fake news",
+      "bias",
+      "social media"
+    ]
+  },
+  {
+    "name": "Covid-19 News Dataset Both Fake and Real",
+    "source": "Zenodo",
+    "description": "<p><em>The dataset contains fake and real news. There are <strong>16898 </strong>unique rows that points out the numbers of news as well. The dataset is merged from two datasets one is from different source of CBC news <strong>(link: https://zenodo.org/record/4722470)</strong> and other is from diff",
+    "url": "https://zenodo.org/records/4722484",
+    "tags": [
+      "Covid-19, News, Fake, Real, CBC."
+    ]
+  }
+]

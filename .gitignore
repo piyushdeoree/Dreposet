@@ -1,0 +1,51 @@
+# =========================
+# Environment Variables
+# =========================
+backend/.env
+.env
+.env.*
+
+# =========================
+# Python
+# =========================
+backend/denv/
+backend/__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# Node.js / Next.js
+# =========================
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build / Coverage
+# =========================
+dist/
+build/
+coverage/

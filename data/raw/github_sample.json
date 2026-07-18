@@ -1,0 +1,286 @@
+[
+  {
+    "name": "KaiDMML/FakeNewsNet",
+    "description": "This is a dataset for fake news detection research",
+    "language": "Python",
+    "stars": 1340,
+    "url": "https://github.com/KaiDMML/FakeNewsNet",
+    "topics": []
+  },
+  {
+    "name": "nishitpatel01/Fake_News_Detection",
+    "description": "Fake News Detection in Python",
+    "language": "Jupyter Notebook",
+    "stars": 639,
+    "url": "https://github.com/nishitpatel01/Fake_News_Detection",
+    "topics": [
+      "classification",
+      "fake-news",
+      "fakenewsdetection",
+      "logistic-regression",
+      "python",
+      "svm-classifier",
+      "text-analysis",
+      "text-classification",
+      "text-mining"
+    ]
+  },
+  {
+    "name": "safe-graph/GNN-FakeNews",
+    "description": "A collection of GNN-based fake news detection models.",
+    "language": "Python",
+    "stars": 551,
+    "url": "https://github.com/safe-graph/GNN-FakeNews",
+    "topics": [
+      "benchmarking",
+      "deep-learning",
+      "fakenewsdetection",
+      "graphneuralnetwork",
+      "machine-learning",
+      "misinformation",
+      "social-media",
+      "social-network-analysis"
+    ]
+  },
+  {
+    "name": "yaqingwang/EANN-KDD18",
+    "description": "EANN: event-adversarial neural networks for multi-modal fake news detection",
+    "language": "Python",
+    "stars": 279,
+    "url": "https://github.com/yaqingwang/EANN-KDD18",
+    "topics": [
+      "adversarial-networks",
+      "deep-learning",
+      "fake-news",
+      "kdd2018",
+      "social-media"
+    ]
+  },
+  {
+    "name": "ICTMCG/fake-news-detection",
+    "description": "This repo is a collection of AWESOME things about fake news detection, including papers, code, etc.",
+    "language": "Unknown",
+    "stars": 254,
+    "url": "https://github.com/ICTMCG/fake-news-detection",
+    "topics": [
+      "awesome-list",
+      "code",
+      "fake-news-detection",
+      "paper",
+      "rumor-detection",
+      "social-media",
+      "text-classification"
+    ]
+  },
+  {
+    "name": "kennqiang/MDFEND-Weibo21",
+    "description": "Source code and data in paper \"MDFEND: Multi-domain Fake News Detection (CIKM'21)\"",
+    "language": "Python",
+    "stars": 249,
+    "url": "https://github.com/kennqiang/MDFEND-Weibo21",
+    "topics": []
+  },
+  {
+    "name": "Vatshayan/Fake-News-Detection-Project",
+    "description": "Final Year Fake News Detection using Machine learning Project with  Report, PPT, Code, Research Paper, Documents and Video Explanation. ",
+    "language": "Jupyter Notebook",
+    "stars": 244,
+    "url": "https://github.com/Vatshayan/Fake-News-Detection-Project",
+    "topics": [
+      "btech",
+      "btechprojects",
+      "capstone-project",
+      "college",
+      "college-project",
+      "fake",
+      "fake-news-detection",
+      "fakenewsdetection",
+      "final-year-project",
+      "finalyearproject",
+      "machine-learning",
+      "machine-learning-algorithms",
+      "news",
+      "ppt",
+      "projects",
+      "research-project",
+      "researchpapers",
+      "sem",
+      "semester-project",
+      "university"
+    ]
+  },
+  {
+    "name": "entitize/Fakeddit",
+    "description": "r/Fakeddit New Multimodal Benchmark Dataset for Fine-grained Fake News Detection",
+    "language": "Python",
+    "stars": 219,
+    "url": "https://github.com/entitize/Fakeddit",
+    "topics": []
+  },
+  {
+    "name": "minyoungg/selfconsistency",
+    "description": "Code for the paper: Fighting Fake News: Image Splice Detection via Learned Self-Consistency",
+    "language": "Jupyter Notebook",
+    "stars": 197,
+    "url": "https://github.com/minyoungg/selfconsistency",
+    "topics": []
+  },
+  {
+    "name": "ICTMCG/FakeSV",
+    "description": "Official repository for \"FakeSV: A Multimodal Benchmark with Rich Social Context for Fake News Detection on Short Video Platforms\", AAAI 2023.",
+    "language": "Python",
+    "stars": 180,
+    "url": "https://github.com/ICTMCG/FakeSV",
+    "topics": [
+      "aaai2023",
+      "dataset",
+      "fake-news-detection",
+      "fake-news-video-detection",
+      "misinformation"
+    ]
+  },
+  {
+    "name": "wangbing1416/Awesome-Fake-News-Detection",
+    "description": "An awesome paper list of fake news detection (FND) and rumor detection.",
+    "language": "Unknown",
+    "stars": 165,
+    "url": "https://github.com/wangbing1416/Awesome-Fake-News-Detection",
+    "topics": []
+  },
+  {
+    "name": "manideep2510/siamese-BERT-fake-news-detection-LIAR",
+    "description": "Triple Branch BERT Siamese Network for fake news classification on LIAR-PLUS dataset in PyTorch",
+    "language": "Python",
+    "stars": 153,
+    "url": "https://github.com/manideep2510/siamese-BERT-fake-news-detection-LIAR",
+    "topics": [
+      "artificial-intelligence",
+      "artificial-neural-networks",
+      "bert-model",
+      "bert-models",
+      "bert-siamese",
+      "fake-news",
+      "fake-news-challenge",
+      "huggingface",
+      "language-understanding",
+      "liar",
+      "liar-plus",
+      "machine-learning",
+      "pytorch"
+    ]
+  },
+  {
+    "name": "brucewlee/lftk",
+    "description": "[BEA @ ACL 2023] General-purpose tool for linguistic features extraction; Tested on readability assessment, essay scoring, fake news detection, hate speech detection, etc.",
+    "language": "Python",
+    "stars": 152,
+    "url": "https://github.com/brucewlee/lftk",
+    "topics": [
+      "bea-workshop",
+      "feature-extraction",
+      "handcrafted-features",
+      "linguistic-features",
+      "natural-language-processing",
+      "python",
+      "readability-scores",
+      "reading-time",
+      "spacy",
+      "text-analysis",
+      "word-difficulty"
+    ]
+  },
+  {
+    "name": "AmirhosseinHonardoust/Fake-News-Detector",
+    "description": "A professional TF-IDF + Logistic Regression style-risk classifier for educational fake-news detection, with a Streamlit dashboard, honest evaluation, uncertainty handling, and leakage analysis.",
+    "language": "Python",
+    "stars": 149,
+    "url": "https://github.com/AmirhosseinHonardoust/Fake-News-Detector",
+    "topics": [
+      "ai-project",
+      "data-science",
+      "data-visualization",
+      "fake-news-detection",
+      "kaggle-dataset",
+      "logistic-regression",
+      "machine-learning",
+      "misinformation",
+      "news-analysis",
+      "nlp",
+      "portfolio-project",
+      "python",
+      "streamlit",
+      "text-classification",
+      "tfidf"
+    ]
+  },
+  {
+    "name": "FakeNewsDetection/FakeBuster",
+    "description": "Fake News Detection with Machine Learning",
+    "language": "Python",
+    "stars": 148,
+    "url": "https://github.com/FakeNewsDetection/FakeBuster",
+    "topics": []
+  },
+  {
+    "name": "yaqingwang/WeFEND-AAAI20",
+    "description": "Dataset for paper \"Weak Supervision for Fake News Detection via Reinforcement Learning\" published in AAAI'2020.",
+    "language": "Jupyter Notebook",
+    "stars": 142,
+    "url": "https://github.com/yaqingwang/WeFEND-AAAI20",
+    "topics": [
+      "aaai2020",
+      "dataset",
+      "deep-learning",
+      "fake-news",
+      "social-media",
+      "weak-supervision",
+      "weakly-supervised-learning"
+    ]
+  },
+  {
+    "name": "dhruvkhattar/MVAE",
+    "description": "This repository contains the code to the paper \"MVAE: Multimodal Variational Autoencoder for Fake News Detection\"",
+    "language": "Python",
+    "stars": 127,
+    "url": "https://github.com/dhruvkhattar/MVAE",
+    "topics": []
+  },
+  {
+    "name": "ICTMCG/ARG",
+    "description": "Official repository for \"Bad Actor, Good Advisor: Exploring the Role of Large Language Models in Fake News Detection\", AAAI 2024.",
+    "language": "Python",
+    "stars": 127,
+    "url": "https://github.com/ICTMCG/ARG",
+    "topics": [
+      "chatgpt",
+      "fake-news-detection",
+      "large-language-models"
+    ]
+  },
+  {
+    "name": "BUPT-GAMMA/CompareNet_FakeNewsDetection",
+    "description": "Compare to The Knowledge: Graph Neural Fake News Detection with External Knowledge (ACL 2021)",
+    "language": "Python",
+    "stars": 115,
+    "url": "https://github.com/BUPT-GAMMA/CompareNet_FakeNewsDetection",
+    "topics": []
+  },
+  {
+    "name": "kapilsinghnegi/Fake-News-Detection",
+    "description": "This project detects whether a news is fake or not using machine learning.",
+    "language": "Jupyter Notebook",
+    "stars": 114,
+    "url": "https://github.com/kapilsinghnegi/Fake-News-Detection",
+    "topics": [
+      "decision-tree-classifier",
+      "fakenewsdetection",
+      "gradient-boosting-classifier",
+      "logistic-regression",
+      "machine-learning",
+      "python",
+      "random-forest-classifier",
+      "scikit-learn",
+      "sklearn"
+    ]
+  }
+]

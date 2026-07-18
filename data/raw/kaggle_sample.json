@@ -1,0 +1,260 @@
+[
+  {
+    "name": "Fake News Detection",
+    "source": "Kaggle",
+    "description": "Fake news detection is a process that involves analyzing news.",
+    "url": "https://www.kaggle.com/datasets/bhavikjikadara/fake-news-detection",
+    "size": null,
+    "tags": [
+      "nlp",
+      "classification",
+      "tabular",
+      "binary classification",
+      "news"
+    ]
+  },
+  {
+    "name": "Fake News Detection",
+    "source": "Kaggle",
+    "description": "A comprehensive dataset for detecting fake news using real-world metadata",
+    "url": "https://www.kaggle.com/datasets/khushikyad001/fake-news-detection",
+    "size": null,
+    "tags": [
+      "earth and nature"
+    ]
+  },
+  {
+    "name": "Fake News Detection Dataset",
+    "source": "Kaggle",
+    "description": "A large-scale, balanced, and high-quality dataset for practicing fake news.",
+    "url": "https://www.kaggle.com/datasets/mahdimashayekhi/fake-news-detection-dataset",
+    "size": null,
+    "tags": [
+      "computer science",
+      "software",
+      "beginner",
+      "text",
+      "news"
+    ]
+  },
+  {
+    "name": "Fake News Detection",
+    "source": "Kaggle",
+    "description": "The Battle Against Misinformation: A Text Classification Dataset",
+    "url": "https://www.kaggle.com/datasets/vishakhdapat/fake-news-detection",
+    "size": null,
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "name": "Fake News detection",
+    "source": "Kaggle",
+    "description": "",
+    "url": "https://www.kaggle.com/datasets/jruvika/fake-news-detection",
+    "size": null,
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "name": "Fake News Detection Datasets",
+    "source": "Kaggle",
+    "description": "",
+    "url": "https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets",
+    "size": null,
+    "tags": [
+      "earth and nature"
+    ]
+  },
+  {
+    "name": "fake-and-real-news-dataset",
+    "source": "Kaggle",
+    "description": "ISOT Fake News detection dataset (binary text classification)",
+    "url": "https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset",
+    "size": null,
+    "tags": [
+      "nlp",
+      "text",
+      "news",
+      "text classification",
+      "english"
+    ]
+  },
+  {
+    "name": "News Headlines Dataset For Sarcasm Detection",
+    "source": "Kaggle",
+    "description": "High quality dataset for the task of Sarcasm and Fake News Detection",
+    "url": "https://www.kaggle.com/datasets/rmisra/news-headlines-dataset-for-sarcasm-detection",
+    "size": null,
+    "tags": [
+      "earth and nature",
+      "linguistics",
+      "computer science",
+      "programming",
+      "nlp",
+      "classification",
+      "deep learning",
+      "news"
+    ]
+  },
+  {
+    "name": "Fake News Detection",
+    "source": "Kaggle",
+    "description": "",
+    "url": "https://www.kaggle.com/datasets/jainpooja/fake-news-detection",
+    "size": null,
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "name": "Fake News Detection Data",
+    "source": "Kaggle",
+    "description": "Tabular summary about each news article",
+    "url": "https://www.kaggle.com/datasets/tasnimniger/fake-news-detection-data",
+    "size": null,
+    "tags": [
+      "categorical",
+      "tabular",
+      "news"
+    ]
+  },
+  {
+    "name": "Fake News Classification",
+    "source": "Kaggle",
+    "description": "A Comprehensive Dataset for Fake News Detection ",
+    "url": "https://www.kaggle.com/datasets/aadyasingh55/fake-news-classification",
+    "size": null,
+    "tags": [
+      "nlp",
+      "data visualization",
+      "data analytics",
+      "classification",
+      "text classification"
+    ]
+  },
+  {
+    "name": "Fake News Content Detection \ud83d\udcf0",
+    "source": "Kaggle",
+    "description": "NLP, Sentiment Analysis using TF-IDF, CountVectorizer, Transformers, BERT",
+    "url": "https://www.kaggle.com/datasets/anmolkumar/fake-news-content-detection",
+    "size": null,
+    "tags": [
+      "arts and entertainment",
+      "business",
+      "internet",
+      "software",
+      "news"
+    ]
+  },
+  {
+    "name": "News Detection (Fake or Real) Dataset",
+    "source": "Kaggle",
+    "description": "The Battle Against Misinformation: A Text Classification Dataset",
+    "url": "https://www.kaggle.com/datasets/nitishjolly/news-detection-fake-or-real-dataset",
+    "size": null,
+    "tags": [
+      "earth and nature",
+      "beginner",
+      "intermediate",
+      "classification",
+      "text",
+      "news"
+    ]
+  },
+  {
+    "name": "Fake News detection",
+    "source": "Kaggle",
+    "description": "Awareness of Fake News in our society",
+    "url": "https://www.kaggle.com/datasets/samrat96/fake-news-detection",
+    "size": null,
+    "tags": [
+      "nlp",
+      "text",
+      "news"
+    ]
+  },
+  {
+    "name": "Real & Fake News",
+    "source": "Kaggle",
+    "description": "A Labeled News Corpus for Training and Evaluating Fake News Detection Models",
+    "url": "https://www.kaggle.com/datasets/razanaqvi14/real-and-fake-news",
+    "size": null,
+    "tags": [
+      "nlp",
+      "text",
+      "binary classification",
+      "news",
+      "english"
+    ]
+  },
+  {
+    "name": "Fake News Detection",
+    "source": "Kaggle",
+    "description": "Binary Text Classification Dataset for Fake News Detection Using NLP Techniques",
+    "url": "https://www.kaggle.com/datasets/sahideseker/fake-news-detection",
+    "size": null,
+    "tags": [
+      "nlp",
+      "classification",
+      "text",
+      "news",
+      "synthetic"
+    ]
+  },
+  {
+    "name": "BanFakeNews",
+    "source": "Kaggle",
+    "description": "A Dataset for Detecting Fake News in Bangla",
+    "url": "https://www.kaggle.com/datasets/cryptexcode/banfakenews",
+    "size": null,
+    "tags": [
+      "earth and nature",
+      "education",
+      "computer science",
+      "nlp",
+      "classification",
+      "deep learning"
+    ]
+  },
+  {
+    "name": "FakeNewsNet",
+    "source": "Kaggle",
+    "description": "Fake News, MisInformation, Data Mining",
+    "url": "https://www.kaggle.com/datasets/mdepak/fakenewsnet",
+    "size": null,
+    "tags": [
+      "social science",
+      "linguistics",
+      "internet",
+      "nlp",
+      "news",
+      "social networks"
+    ]
+  },
+  {
+    "name": "Fake News Detection",
+    "source": "Kaggle",
+    "description": "Detecting News weather it is  True or Fake ",
+    "url": "https://www.kaggle.com/datasets/surekharamireddy/fake-news-detection",
+    "size": null,
+    "tags": [
+      "natural disasters",
+      "people and society",
+      "news",
+      "social networks"
+    ]
+  },
+  {
+    "name": "Real vs Fake News Story Detection Dataset",
+    "source": "Kaggle",
+    "description": "Labeled News Articles for Real vs Fake Content Classification",
+    "url": "https://www.kaggle.com/datasets/barkataliarbab/real-vs-fake-news-story-detection-dataset",
+    "size": null,
+    "tags": [
+      "biology",
+      "tabular"
+    ]
+  }
+]

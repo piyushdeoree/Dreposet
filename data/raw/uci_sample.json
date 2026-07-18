@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Iris",
+    "source": "UCI",
+    "description": "",
+    "url": "https://archive.ics.uci.edu/dataset/53/iris",
+    "tags": []
+  },
+  {
+    "name": "Predict Students' Dropout and Academic Success",
+    "source": "UCI",
+    "description": "",
+    "url": "https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success",
+    "tags": []
+  },
+  {
+    "name": "Covertype",
+    "source": "UCI",
+    "description": "",
+    "url": "https://archive.ics.uci.edu/dataset/31/covertype",
+    "tags": []
+  },
+  {
+    "name": "Ionosphere",
+    "source": "UCI",
+    "description": "",
+    "url": "https://archive.ics.uci.edu/dataset/52/ionosphere",
+    "tags": []
+  },
+  {
+    "name": "Product Classification and Clustering",
+    "source": "UCI",
+    "description": "",
+    "url": "https://archive.ics.uci.edu/dataset/837/product+classification+and+clustering",
+    "tags": []
+  },
+  {
+    "name": "Tic-Tac-Toe Endgame",
+    "source": "UCI",
+    "description": "",
+    "url": "https://archive.ics.uci.edu/dataset/101/tic+tac+toe+endgame",
+    "tags": []
+  },
+  {
+    "name": "Glioma Grading Clinical and Mutation Features",
+    "source": "UCI",
+    "description": "",
+    "url": "https://archive.ics.uci.edu/dataset/759/glioma+grading+clinical+and+mutation+features+dataset",
+    "tags": []
+  },
+  {
+    "name": "HIGGS",
+    "source": "UCI",
+    "description": "",
+    "url": "https://archive.ics.uci.edu/dataset/280/higgs",
+    "tags": []
+  },
+  {
+    "name": "Breast Cancer Coimbra",
+    "source": "UCI",
+    "description": "",
+    "url": "https://archive.ics.uci.edu/dataset/451/breast+cancer+coimbra",
+    "tags": []
+  },
+  {
+    "name": "Parkinson's Disease Classification",
+    "source": "UCI",
+    "description": "",
+    "url": "https://archive.ics.uci.edu/dataset/470/parkinson+s+disease+classification",
+    "tags": []
+  }
+]

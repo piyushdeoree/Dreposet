@@ -1,0 +1,307 @@
+[
+  {
+    "name": "GonzaloA/fake_news",
+    "source": "Hugging Face",
+    "description": "\n\t\n\t\t\n\t\tTODO: Add YAML tags here. Copy-paste the tags obtained with the online tagging app: https://huggingface.co/spaces/huggingface/datasets-tagging\n\t\n\n\n\t\n\t\n\t\n\t\tannotations_creators:\n- no-annotation\nlanguage_creators:\n- found\nlanguage:\n- en\nlicense:\n- unknown\nmultilinguality:\n- monolingual\nsize_categories:\n- 30k<n<50k\nsource_datasets:\n- original\ntask_categories:\n- text-classification\ntask_ids:\n- fact-checking\n- intent-classification\npretty_name: GonzaloA / Fake News\n\t\n\t\n\t\t\n\t\tDataset Card for\u2026 See the full description on the dataset page: https://huggingface.co/datasets/GonzaloA/fake_news.",
+    "url": "https://huggingface.co/datasets/GonzaloA/fake_news",
+    "tags": [
+      "size_categories:10K<n<100K",
+      "format:parquet",
+      "modality:tabular",
+      "modality:text",
+      "library:datasets",
+      "library:pandas",
+      "library:mlcroissant",
+      "library:polars",
+      "region:us"
+    ]
+  },
+  {
+    "name": "community-datasets/fake_news_english",
+    "source": "Hugging Face",
+    "description": "\n\t\n\t\t\n\t\tDataset Card for Fake News English\n\t\n\n\n\t\n\t\t\n\t\tDataset Summary\n\t\n\nThis dataset contains URLs of news articles classified as either fake or satire. The articles classified as fake also have the URL of a rebutting article.\n\n\t\n\t\t\n\t\tSupported Tasks and Leaderboards\n\t\n\n[More Information Needed]\n\n\t\n\t\t\n\t\tLanguages\n\t\n\nEnglish\n\n\t\n\t\t\n\t\tDataset Structure\n\t\n\n\n\t\n\t\t\n\t\tData Instances\n\t\n\n{\n\"article_number\": 102 ,\n\"url_of_article\":\u2026 See the full description on the dataset page: https://huggingface.co/datasets/community-datasets/fake_news_english.",
+    "url": "https://huggingface.co/datasets/community-datasets/fake_news_english",
+    "tags": [
+      "task_categories:text-classification",
+      "annotations_creators:expert-generated",
+      "language_creators:expert-generated",
+      "multilinguality:monolingual",
+      "source_datasets:original",
+      "language:en",
+      "license:unknown",
+      "size_categories:n<1K",
+      "format:parquet",
+      "modality:text",
+      "library:datasets",
+      "library:pandas",
+      "library:mlcroissant",
+      "library:polars",
+      "region:us"
+    ]
+  },
+  {
+    "name": "jcblaise/fake_news_filipino",
+    "source": "Hugging Face",
+    "description": "    Low-Resource Fake News Detection Corpora in Filipino. The first of its kind. Contains 3,206 expertly-labeled news samples, half of which are real and half of which are fake.",
+    "url": "https://huggingface.co/datasets/jcblaise/fake_news_filipino",
+    "tags": [
+      "task_categories:text-classification",
+      "task_ids:fact-checking",
+      "annotations_creators:expert-generated",
+      "language_creators:crowdsourced",
+      "multilinguality:monolingual",
+      "source_datasets:original",
+      "language:tl",
+      "license:unknown",
+      "size_categories:1K<n<10K",
+      "region:us"
+    ]
+  },
+  {
+    "name": "community-datasets/urdu_fake_news",
+    "source": "Hugging Face",
+    "description": "\n\t\n\t\t\n\t\tDataset Card for Bend the Truth (Urdu Fake News)\n\t\n\n\n\t\n\t\t\n\t\tDataset Summary\n\t\n\n[More Information Needed]\n\n\t\n\t\t\n\t\tSupported Tasks and Leaderboards\n\t\n\n[More Information Needed]\n\n\t\n\t\t\n\t\tLanguages\n\t\n\n[More Information Needed]\n\n\t\n\t\t\n\t\tDataset Structure\n\t\n\n\n\t\n\t\t\n\t\tData Instances\n\t\n\n[More Information Needed]\n\n\t\n\t\t\n\t\tData Fields\n\t\n\n\nnews: a string in urdu\nlabel: the label indicating whethere the provided news is real or fake.\ncategory: The intent of the news being presented. The available 5\u2026 See the full description on the dataset page: https://huggingface.co/datasets/community-datasets/urdu_fake_news.",
+    "url": "https://huggingface.co/datasets/community-datasets/urdu_fake_news",
+    "tags": [
+      "task_categories:text-classification",
+      "task_ids:fact-checking",
+      "task_ids:intent-classification",
+      "annotations_creators:expert-generated",
+      "language_creators:expert-generated",
+      "multilinguality:monolingual",
+      "source_datasets:original",
+      "language:ur",
+      "license:unknown",
+      "size_categories:n<1K",
+      "format:parquet",
+      "modality:text",
+      "library:datasets",
+      "library:pandas",
+      "library:mlcroissant",
+      "library:polars",
+      "region:us"
+    ]
+  },
+  {
+    "name": "Annabelleabbott/real-fake-news-workshop",
+    "source": "Hugging Face",
+    "description": "",
+    "url": "https://huggingface.co/datasets/Annabelleabbott/real-fake-news-workshop",
+    "tags": [
+      "size_categories:n<1K",
+      "format:parquet",
+      "modality:text",
+      "library:datasets",
+      "library:pandas",
+      "library:mlcroissant",
+      "library:polars",
+      "region:us"
+    ]
+  },
+  {
+    "name": "gagan3012/fake-news",
+    "source": "Hugging Face",
+    "description": "",
+    "url": "https://huggingface.co/datasets/gagan3012/fake-news",
+    "tags": [
+      "region:us"
+    ]
+  },
+  {
+    "name": "mrm8488/fake-news",
+    "source": "Hugging Face",
+    "description": "",
+    "url": "https://huggingface.co/datasets/mrm8488/fake-news",
+    "tags": [
+      "size_categories:10K<n<100K",
+      "format:csv",
+      "modality:text",
+      "library:datasets",
+      "library:pandas",
+      "library:mlcroissant",
+      "library:polars",
+      "region:us"
+    ]
+  },
+  {
+    "name": "mercerchen/fakenews-jsonl",
+    "source": "Hugging Face",
+    "description": "",
+    "url": "https://huggingface.co/datasets/mercerchen/fakenews-jsonl",
+    "tags": [
+      "region:us"
+    ]
+  },
+  {
+    "name": "sayalaruano/FakeNewsCorpusSpanish",
+    "source": "Hugging Face",
+    "description": "\n\t\n\t\t\n\t\t:newspaper: The Spanish Fake News Corpus\n\t\n\n\n\n\n\n\n\t\n\t\n\t\n\t\tThe Spanish Fake News Corpus Version 2.0 [[ FakeDeS Task @ Iberlef 2021 ]] :metal:\n\t\n\n\n\t\t\n\t\tCorpus Description\n\t\n\nThe Spanish Fake News Corpus Version 2.0 contains pairs of fake and true publications about different events (all of them were written in Spanish) that were collected from November 2020 to March 2021. Different sources from the web were used to gather the information, but mainly of two types: 1) newspapers and media\u2026 See the full description on the dataset page: https://huggingface.co/datasets/sayalaruano/FakeNewsCorpusSpanish.",
+    "url": "https://huggingface.co/datasets/sayalaruano/FakeNewsCorpusSpanish",
+    "tags": [
+      "region:us"
+    ]
+  },
+  {
+    "name": "sayalaruano/FakeNewsSpanish_Kaggle1",
+    "source": "Hugging Face",
+    "description": "This dataset was obtained from: https://www.kaggle.com/datasets/arseniitretiakov/noticias-falsas-en-espaol\n",
+    "url": "https://huggingface.co/datasets/sayalaruano/FakeNewsSpanish_Kaggle1",
+    "tags": [
+      "license:cc-by-nc-sa-4.0",
+      "region:us"
+    ]
+  },
+  {
+    "name": "sayalaruano/FakeNewsSpanish_Kaggle2",
+    "source": "Hugging Face",
+    "description": "This dataset was obtained from: https://www.kaggle.com/datasets/zulanac/fake-and-real-news\n",
+    "url": "https://huggingface.co/datasets/sayalaruano/FakeNewsSpanish_Kaggle2",
+    "tags": [
+      "license:cc-by-nc-sa-4.0",
+      "size_categories:n<1K",
+      "format:csv",
+      "modality:text",
+      "library:datasets",
+      "library:dask",
+      "library:mlcroissant",
+      "library:polars",
+      "region:us"
+    ]
+  },
+  {
+    "name": "IsaacRodgz/Fake-news-latam-omdena",
+    "source": "Hugging Face",
+    "description": "\n\t\n\t\t\n\t\tDataset Card for Fake-news-latam-omdena\n\t\n\n\n\t\n\t\t\n\t\tDataset Summary\n\t\n\nSince the Cambridge Analytica scandal a pandora box has been opened around the world, bringing to light campaigns even involving our current Latinamerica leaders manipulating public opinion through social media to win an election. There is a common and simple pattern that includes platforms such as facebook and fake news, where the candidates are able to build a nefarious narrative for their own benefit. This fact is\u2026 See the full description on the dataset page: https://huggingface.co/datasets/IsaacRodgz/Fake-news-latam-omdena.",
+    "url": "https://huggingface.co/datasets/IsaacRodgz/Fake-news-latam-omdena",
+    "tags": [
+      "size_categories:1K<n<10K",
+      "format:parquet",
+      "modality:tabular",
+      "modality:text",
+      "library:datasets",
+      "library:pandas",
+      "library:mlcroissant",
+      "library:polars",
+      "region:us"
+    ]
+  },
+  {
+    "name": "Marmoot/Fake_News_jpposadas",
+    "source": "Hugging Face",
+    "description": "",
+    "url": "https://huggingface.co/datasets/Marmoot/Fake_News_jpposadas",
+    "tags": [
+      "license:cc-by-4.0",
+      "region:us"
+    ]
+  },
+  {
+    "name": "somosnlp-hackathon-2022/Fake_news_train",
+    "source": "Hugging Face",
+    "description": "",
+    "url": "https://huggingface.co/datasets/somosnlp-hackathon-2022/Fake_news_train",
+    "tags": [
+      "size_categories:1K<n<10K",
+      "format:csv",
+      "modality:text",
+      "library:datasets",
+      "library:pandas",
+      "library:mlcroissant",
+      "library:polars",
+      "region:us"
+    ]
+  },
+  {
+    "name": "ikekobby/40-percent-cleaned-preprocessed-fake-real-news",
+    "source": "Hugging Face",
+    "description": "Kaggle based dataset for text classification task. The data has been cleaned and processed for preparation into any model for classification based tasks. This is just 40% of the entire dataset.\n",
+    "url": "https://huggingface.co/datasets/ikekobby/40-percent-cleaned-preprocessed-fake-real-news",
+    "tags": [
+      "size_categories:10K<n<100K",
+      "format:csv",
+      "modality:text",
+      "library:datasets",
+      "library:pandas",
+      "library:mlcroissant",
+      "library:polars",
+      "region:us"
+    ]
+  },
+  {
+    "name": "noahgift/fake-news",
+    "source": "Hugging Face",
+    "description": "",
+    "url": "https://huggingface.co/datasets/noahgift/fake-news",
+    "tags": [
+      "license:cc",
+      "size_categories:1K<n<10K",
+      "format:csv",
+      "modality:text",
+      "library:datasets",
+      "library:pandas",
+      "library:mlcroissant",
+      "library:polars",
+      "region:us"
+    ]
+  },
+  {
+    "name": "BeardedJohn/FakeNews",
+    "source": "Hugging Face",
+    "description": "",
+    "url": "https://huggingface.co/datasets/BeardedJohn/FakeNews",
+    "tags": [
+      "size_categories:10K<n<100K",
+      "format:csv",
+      "modality:text",
+      "library:datasets",
+      "library:pandas",
+      "library:mlcroissant",
+      "library:polars",
+      "region:us"
+    ]
+  },
+  {
+    "name": "suresh-subramanian/autotrain-data-fake-news",
+    "source": "Hugging Face",
+    "description": "\n\t\n\t\t\n\t\tAutoTrain Dataset for project: fake-news\n\t\n\n\n\t\n\t\t\n\t\tDataset Description\n\t\n\nThis dataset has been automatically processed by AutoTrain for project fake-news.\n\n\t\n\t\t\n\t\tLanguages\n\t\n\nThe BCP-47 code for the dataset's language is en.\n\n\t\n\t\t\n\t\tDataset Structure\n\t\n\n\n\t\n\t\t\n\t\tData Instances\n\t\n\nA sample from this dataset looks as follows:\n[\n  {\n    \"feat_author\": \"Brett Macdonald\",\n    \"feat_published\": \"2016-10-28T00:58:00.000+03:00\",\n    \"feat_title\": \"breaking hillary just lost the black vote\u2026 See the full description on the dataset page: https://huggingface.co/datasets/suresh-subramanian/autotrain-data-fake-news.",
+    "url": "https://huggingface.co/datasets/suresh-subramanian/autotrain-data-fake-news",
+    "tags": [
+      "task_categories:text-classification",
+      "language:en",
+      "region:us"
+    ]
+  },
+  {
+    "name": "arbml/Satirical_Fake_News",
+    "source": "Hugging Face",
+    "description": "\n\t\n\t\t\n\t\tDataset Card for \"Satirical_Fake_News\"\n\t\n\nMore Information needed\n",
+    "url": "https://huggingface.co/datasets/arbml/Satirical_Fake_News",
+    "tags": [
+      "size_categories:1K<n<10K",
+      "format:parquet",
+      "modality:text",
+      "library:datasets",
+      "library:pandas",
+      "library:mlcroissant",
+      "library:polars",
+      "region:us"
+    ]
+  },
+  {
+    "name": "genesisqu/fake-real-news",
+    "source": "Hugging Face",
+    "description": "",
+    "url": "https://huggingface.co/datasets/genesisqu/fake-real-news",
+    "tags": [
+      "license:bsd",
+      "size_categories:10K<n<100K",
+      "format:csv",
+      "modality:text",
+      "library:datasets",
+      "library:dask",
+      "library:mlcroissant",
+      "library:polars",
+      "region:us"
+    ]
+  }
+]

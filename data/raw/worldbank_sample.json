@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Poverty Headcount ($1.90 a day)",
+    "source": "World Bank",
+    "description": "The poverty headcount index measures the proportion of the population with daily per capita income (in 2011 PPP) below the poverty line.",
+    "url": "https://data.worldbank.org/indicator/1.0.HCount.1.90usd",
+    "tags": [
+      "LAC Equity Lab"
+    ]
+  },
+  {
+    "name": "Poverty Headcount ($2.50 a day)",
+    "source": "World Bank",
+    "description": "The poverty headcount index measures the proportion of the population with daily per capita income (in 2005 PPP) below the poverty line.",
+    "url": "https://data.worldbank.org/indicator/1.0.HCount.2.5usd",
+    "tags": [
+      "LAC Equity Lab"
+    ]
+  },
+  {
+    "name": "Official Moderate Poverty Rate-National",
+    "source": "World Bank",
+    "description": "The poverty headcount index measures the proportion of the population with daily per capita income below the official poverty line developed by each country.",
+    "url": "https://data.worldbank.org/indicator/1.0.HCount.Ofcl",
+    "tags": [
+      "LAC Equity Lab"
+    ]
+  },
+  {
+    "name": "Poverty Headcount ($4 a day)",
+    "source": "World Bank",
+    "description": "The poverty headcount index measures the proportion of the population with daily per capita income (in 2005 PPP) below the poverty line.",
+    "url": "https://data.worldbank.org/indicator/1.0.HCount.Poor4uds",
+    "tags": [
+      "LAC Equity Lab"
+    ]
+  },
+  {
+    "name": "Poverty Gap ($1.90 a day)",
+    "source": "World Bank",
+    "description": "The poverty gap captures the mean aggregate income or consumption shortfall relative to the poverty line across the entire population. It measures the total resources needed to bring all the poor to the level of the poverty line (averaged over the total population). ",
+    "url": "https://data.worldbank.org/indicator/1.0.PGap.1.90usd",
+    "tags": [
+      "LAC Equity Lab"
+    ]
+  },
+  {
+    "name": "Poverty Gap ($2.50 a day)",
+    "source": "World Bank",
+    "description": "The poverty gap captures the mean aggregate income or consumption shortfall relative to the poverty line across the entire population. It measures the total resources needed to bring all the poor to the level of the poverty line (averaged over the total population). ",
+    "url": "https://data.worldbank.org/indicator/1.0.PGap.2.5usd",
+    "tags": [
+      "LAC Equity Lab"
+    ]
+  },
+  {
+    "name": "Poverty Gap ($4 a day)",
+    "source": "World Bank",
+    "description": "The poverty gap captures the mean aggregate income or consumption shortfall relative to the poverty line across the entire population. It measures the total resources needed to bring all the poor to the level of the poverty line (averaged over the total population). ",
+    "url": "https://data.worldbank.org/indicator/1.0.PGap.Poor4uds",
+    "tags": [
+      "LAC Equity Lab"
+    ]
+  },
+  {
+    "name": "Poverty Severity ($1.90 a day)",
+    "source": "World Bank",
+    "description": "The poverty severity index combines information on both poverty and inequality among the poor by averaging the squares of the poverty gaps relative the poverty line",
+    "url": "https://data.worldbank.org/indicator/1.0.PSev.1.90usd",
+    "tags": [
+      "LAC Equity Lab"
+    ]
+  },
+  {
+    "name": "Poverty Severity ($2.50 a day)",
+    "source": "World Bank",
+    "description": "The poverty severity index combines information on both poverty and inequality among the poor by averaging the squares of the poverty gaps relative the poverty line",
+    "url": "https://data.worldbank.org/indicator/1.0.PSev.2.5usd",
+    "tags": [
+      "LAC Equity Lab"
+    ]
+  },
+  {
+    "name": "Poverty Severity ($4 a day)",
+    "source": "World Bank",
+    "description": "The poverty severity index combines information on both poverty and inequality among the poor by averaging the squares of the poverty gaps relative the poverty line",
+    "url": "https://data.worldbank.org/indicator/1.0.PSev.Poor4uds",
+    "tags": [
+      "LAC Equity Lab"
+    ]
+  },
+  {
+    "name": "Poverty Headcount ($1.90 a day)-Rural",
+    "source": "World Bank",
+    "description": "The poverty headcount index measures the proportion of the population with daily per capita income (in 2011 PPP) below the poverty line.",
+    "url": "https://data.worldbank.org/indicator/1.1.HCount.1.90usd",
+    "tags": [
+      "LAC Equity Lab"
+    ]
+  },
+  {
+    "name": "Poverty Headcount ($2.50 a day)-Rural",
+    "source": "World Bank",
+    "description": "The poverty headcount index measures the proportion of the population with daily per capita income (in 2005 PPP) below the poverty line.",
+    "url": "https://data.worldbank.org/indicator/1.1.HCount.2.5usd",
+    "tags": [
+      "LAC Equity Lab"
+    ]
+  },
+  {
+    "name": "Official Moderate Poverty Rate- Rural",
+    "source": "World Bank",
+    "description": "The poverty headcount index measures the proportion of the population with daily per capita income below the official poverty line developed by each country.",
+    "url": "https://data.worldbank.org/indicator/1.1.HCount.Ofcl",
+    "tags": [
+      "LAC Equity Lab"
+    ]
+  },
+  {
+    "name": "Poverty Headcount ($4 a day)-Rural",
+    "source": "World Bank",
+    "description": "The poverty headcount index measures the proportion of the population with daily per capita income (in 2005 PPP) below the poverty line.",
+    "url": "https://data.worldbank.org/indicator/1.1.HCount.Poor4uds",
+    "tags": [
+      "LAC Equity Lab"
+    ]
+  },
+  {
+    "name": "Poverty Gap ($1.90 a day)-Rural",
+    "source": "World Bank",
+    "description": "The poverty gap captures the mean aggregate income or consumption shortfall relative to the poverty line across the entire population. It measures the total resources needed to bring all the poor to the level of the poverty line (averaged over the total population). ",
+    "url": "https://data.worldbank.org/indicator/1.1.PGap.1.90usd",
+    "tags": [
+      "LAC Equity Lab"
+    ]
+  },
+  {
+    "name": "Poverty Gap ($2.50 a day)-Rural",
+    "source": "World Bank",
+    "description": "The poverty gap captures the mean aggregate income or consumption shortfall relative to the poverty line across the entire population. It measures the total resources needed to bring all the poor to the level of the poverty line (averaged over the total population). ",
+    "url": "https://data.worldbank.org/indicator/1.1.PGap.2.5usd",
+    "tags": [
+      "LAC Equity Lab"
+    ]
+  },
+  {
+    "name": "Poverty Gap ($4 a day)-Rural",
+    "source": "World Bank",
+    "description": "The poverty gap captures the mean aggregate income or consumption shortfall relative to the poverty line across the entire population. It measures the total resources needed to bring all the poor to the level of the poverty line (averaged over the total population). ",
+    "url": "https://data.worldbank.org/indicator/1.1.PGap.Poor4uds",
+    "tags": [
+      "LAC Equity Lab"
+    ]
+  },
+  {
+    "name": "Poverty Severity ($1.90 a day)-Rural",
+    "source": "World Bank",
+    "description": "The poverty severity index combines information on both poverty and inequality among the poor by averaging the squares of the poverty gaps relative the poverty line",
+    "url": "https://data.worldbank.org/indicator/1.1.PSev.1.90usd",
+    "tags": [
+      "LAC Equity Lab"
+    ]
+  },
+  {
+    "name": "Poverty Severity ($2.50 a day)-Rural",
+    "source": "World Bank",
+    "description": "The poverty severity index combines information on both poverty and inequality among the poor by averaging the squares of the poverty gaps relative the poverty line",
+    "url": "https://data.worldbank.org/indicator/1.1.PSev.2.5usd",
+    "tags": [
+      "LAC Equity Lab"
+    ]
+  },
+  {
+    "name": "Poverty Severity ($4 a day)-Rural",
+    "source": "World Bank",
+    "description": "The poverty severity index combines information on both poverty and inequality among the poor by averaging the squares of the poverty gaps relative the poverty line",
+    "url": "https://data.worldbank.org/indicator/1.1.PSev.Poor4uds",
+    "tags": [
+      "LAC Equity Lab"
+    ]
+  }
+]

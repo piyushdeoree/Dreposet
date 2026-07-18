@@ -1,79 +1,41 @@
 import numpy as np
 import faiss
-from app.db.database import SessionLocal
-from app.db.models import Dataset, GitHubRepo
 from app.services.embeddings import embed_text
+from app.services.aggregator import fetch_all_datasets, fetch_all_github
 
 
-def build_index(embeddings: list):
-    """Build a FAISS index from a list of embedding vectors."""
+def _build_index_and_search(items: list, query: str, top_k: int):
+    if not items:
+        return []
+
+    texts = [f"{item['name']}. {item.get('description', '')}" for item in items]
+    embeddings = [embed_text(t) for t in texts]
+
     dim = len(embeddings[0])
-    index = faiss.IndexFlatIP(dim)  # inner product == cosine similarity if vectors are normalized
+    index = faiss.IndexFlatIP(dim)
     matrix = np.array(embeddings, dtype="float32")
     faiss.normalize_L2(matrix)
     index.add(matrix)
-    return index
+
+    query_vec = np.array([embed_text(query)], dtype="float32")
+    faiss.normalize_L2(query_vec)
+
+    scores, indices = index.search(query_vec, min(top_k, len(items)))
+
+    results = []
+    for rank, (score, idx) in enumerate(zip(scores[0], indices[0])):
+        item = dict(items[idx])
+        item["id"] = rank + 1
+        item["similarity"] = float(score)
+        results.append(item)
+    return results
 
 
 def search_datasets(query: str, top_k: int = 10):
-    db = SessionLocal()
-    try:
-        datasets = db.query(Dataset).filter(Dataset.embedding.isnot(None)).all()
-        if not datasets:
-            return []
-
-        embeddings = [d.embedding for d in datasets]
-        index = build_index(embeddings)
-
-        query_vec = np.array([embed_text(query)], dtype="float32")
-        faiss.normalize_L2(query_vec)
-
-        scores, indices = index.search(query_vec, min(top_k, len(datasets)))
-
-        results = []
-        for score, idx in zip(scores[0], indices[0]):
-            d = datasets[idx]
-            results.append({
-                "id": d.id,
-                "name": d.name,
-                "source": d.source,
-                "description": d.description,
-                "url": d.url,
-                "tags": d.tags,
-                "similarity": float(score),
-            })
-        return results
-    finally:
-        db.close()
+    items = fetch_all_datasets(query)
+    return _build_index_and_search(items, query, top_k)
 
 
 def search_github_repos(query: str, top_k: int = 10):
-    db = SessionLocal()
-    try:
-        repos = db.query(GitHubRepo).filter(GitHubRepo.embedding.isnot(None)).all()
-        if not repos:
-            return []
-
-        embeddings = [r.embedding for r in repos]
-        index = build_index(embeddings)
-
-        query_vec = np.array([embed_text(query)], dtype="float32")
-        faiss.normalize_L2(query_vec)
-
-        scores, indices = index.search(query_vec, min(top_k, len(repos)))
-
-        results = []
-        for score, idx in zip(scores[0], indices[0]):
-            r = repos[idx]
-            results.append({
-                "id": r.id,
-                "name": r.name,
-                "description": r.description,
-                "language": r.language,
-                "stars": r.stars,
-                "url": r.url,
-                "similarity": float(score),
-            })
-        return results
-    finally:
-        db.close()
+    items = fetch_all_github(query)
+    return _build_index_and_search(items, query, top_k)

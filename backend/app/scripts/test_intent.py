@@ -2,12 +2,12 @@ from app.services.intent_parser import parse_intent
 
 if __name__ == "__main__":
     queries = [
-        "I want to build a fake news detection model",
+        "I want to build a skin disease detection model",
         "Predict loan defaults for a bank",
         "Build a recommendation system for e-commerce products",
         "Detect objects in traffic camera images",
+        "Classify plant diseases from leaf images",
     ]
-
     for q in queries:
         result = parse_intent(q)
         print(f"\nQuery: {q}")

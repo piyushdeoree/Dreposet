@@ -1,37 +1,32 @@
 "use client";
 
-import { Home, Info, ShieldOff, Settings, LogIn } from "lucide-react";
+import { CircleHelp, Home, LogIn, Settings, ShieldCheck } from "lucide-react";
 
-function IconButton({ icon: Icon, label }: { icon: typeof Home; label: string }) {
-  return (
-    <button
-      title={label}
-      className="w-9 h-9 rounded-full bg-white/20 hover:bg-white/30 flex items-center justify-center transition-colors"
-    >
-      <Icon size={18} className="text-white" />
-    </button>
-  );
-}
+const navigation = [
+  { label: "Home", icon: Home },
+  { label: "About", icon: CircleHelp },
+  { label: "Policy", icon: ShieldCheck },
+  { label: "Settings", icon: Settings },
+  { label: "Login", icon: LogIn },
+];
 
-export default function Header() {
+export default function Header({ onHome }: { onHome?: () => void }) {
   return (
-    <header className="bg-orange-500 px-6 py-3 flex items-center justify-between">
-      <div className="flex items-center gap-2">
-        <div className="w-9 h-9 bg-white rounded-md flex items-center justify-center font-bold text-orange-500">
-          D
-        </div>
-        <span className="text-white font-bold text-lg tracking-wide">
-          DREPOSET
-        </span>
+    <header className="px-4 pt-4 sm:px-6 sm:pt-6">
+      <div className="mx-auto flex max-w-6xl items-center justify-between rounded-2xl border border-blue-100 bg-white/85 px-3 py-2.5 shadow-[0_10px_30px_rgba(31,48,87,0.08)] backdrop-blur sm:px-4">
+        <a className="flex items-center gap-2.5" href="#top" aria-label="Dataset Discovery home">
+          {/* Replace public/logo.svg with your own logo image whenever you are ready. */}
+          <img src="Dreposet.png" className="h-10 w-25  object-cover" />
+        </a>
+
+        <nav className="flex items-center gap-1.5" aria-label="Primary navigation">
+          {navigation.map(({ label, icon: Icon }) => (
+            <button key={label} title={label} aria-label={label} onClick={label === "Home" ? onHome : undefined} className="grid h-9 w-9 place-items-center rounded-xl text-[#314269] transition hover:bg-[#edf3ff] hover:text-[#1B4EF5] focus:outline-none focus:ring-2 focus:ring-[#9bbcff]">
+              <Icon size={18} strokeWidth={2.2} />
+            </button>
+          ))}
+        </nav>
       </div>
-
-      <nav className="flex items-center gap-3"> 
-        <IconButton icon={Home} label="Home" />
-        <IconButton icon={Info} label="About" />
-        <IconButton icon={ShieldOff} label="Policy" />
-        <IconButton icon={Settings} label="Settings" />
-        <IconButton icon={LogIn} label="Login" />
-      </nav>
     </header>
   );
 }

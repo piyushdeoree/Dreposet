@@ -1,41 +1,6 @@
+import { FolderGit2, Star } from "lucide-react";
 import { GitHubResult } from "@/types";
-import { Star } from "lucide-react";
 
 export default function GitHubCard({ repo }: { repo: GitHubResult }) {
-  return (
-    <div className="bg-white border rounded-lg p-4 shadow-sm flex flex-col justify-between">
-      <div>
-        <div className="flex justify-between items-start mb-1">
-          <h3 className="font-semibold text-base break-all">{repo.name}</h3>
-          <span className="text-xs bg-gray-100 px-2 py-1 rounded text-gray-600 whitespace-nowrap ml-2">
-            {repo.language}
-          </span>
-        </div>
-
-        <p className="text-sm text-gray-600 mb-2 line-clamp-3">
-          {repo.description}
-        </p>
-
-        <p className="text-xs text-gray-500 italic mb-3">
-          {repo.why_recommended}
-        </p>
-      </div>
-
-      <div className="flex items-center justify-between mt-2">
-        <span className="text-xs text-gray-500 flex items-center gap-1">
-          <Star size={12} className="fill-yellow-400 text-yellow-400" />
-          {repo.stars.toLocaleString()}
-        </span>
-
-        <a
-          href={repo.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-sm bg-gray-800 text-white px-3 py-1.5 rounded hover:bg-gray-900"
-        >
-          Open Repository
-        </a>
-      </div>
-    </div>
-  );
+  return <article className="flex min-h-72 flex-col rounded-3xl border border-[#e0e7f4] bg-white p-5 shadow-[0_8px_24px_rgba(29,48,90,0.05)] transition hover:-translate-y-1 hover:shadow-[0_16px_32px_rgba(29,48,90,0.1)]"><div className="flex items-start justify-between gap-3"><span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-[#edf3ff] text-[#365b99]"><FolderGit2 size={19} /></span><span className="rounded-full bg-[#f3f6fb] px-2.5 py-1 text-xs font-semibold text-[#536481]">{repo.language || "Code"}</span></div><h3 className="mt-5 break-words text-lg font-bold leading-6 text-[#162750]">{repo.name}</h3><p className="mt-2 line-clamp-3 text-sm leading-6 text-[#66738f]">{repo.description}</p><div className="mt-auto flex items-center justify-between border-t border-[#edf0f6] pt-4"><span className="flex items-center gap-1 text-xs font-medium text-[#71809c]"><Star size={14} className="fill-[#ffb342] text-[#ffb342]" />{repo.stars.toLocaleString()}</span><a href={repo.url} target="_blank" rel="noopener noreferrer" className="text-sm font-bold text-[#365b99] hover:text-[#24477f]">View</a></div></article>;
 }
